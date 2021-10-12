@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/lato/lato-regular-webfont.woff2") format("woff2"),
+    url("../assets/fonts/lato/lato-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/lato/lato-bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/lato/lato-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--text-color);
+  font-size: 1.6rem;
+  font-family: $font-family-base;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: $heading;
+}
+
+p {
+  font-size: $body-text;
+}
+
+a {
+  font-size: $body-text;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+li {
+  list-style: none;
+}

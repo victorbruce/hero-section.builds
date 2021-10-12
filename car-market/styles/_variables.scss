@@ -1,0 +1,16 @@
+// Colors
+:root {
+  --primary-color: #000;
+  --text-color: #333;
+  --white: #fff;
+}
+
+// Fonts
+$font-family-base: "Lato", sans-serif;
+$heading: 4.5rem;
+$text-md: 2rem;
+$body-text: 1.6rem;
+
+// Breakpoints
+$breakpoint-tablet: 600px;
+$breakpoint-desktop: 1200px;
